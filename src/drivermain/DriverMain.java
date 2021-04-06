@@ -5,7 +5,6 @@
  */
 package drivermain;
 import Course.*;
-import Course.
 import Person.*;
 import Fakultas.*;
 /**
@@ -29,9 +28,9 @@ public class DriverMain {
         
         
         //Lecturer
-        Dosen JTI = new Dosen("Jati Hiliamsyah Husen", "Jl. Buah Batu", "20920040", "Waseda University", "JTI", 7000000);
-        Dosen DAS = new Dosen("Dana Sulistiyo Kusumo", "Jl. Buah Batu", "0411027801", "The University Of New South Wales", "DAS", 7500000);
-        Dosen ERW = new Dosen("Erwin Budi Setiawan", "Jl. Buah Batu", "0405117601", "Institut Teknologi Bandung", "ERW", 7500000);
+        Dosen JTI = new Dosen("Jati Hiliamsyah Husen", "Jl. Buah Batu", "20XXXX40", "Waseda University", "JTI", 7000000);
+        Dosen DAS = new Dosen("Dana Sulistiyo Kusumo", "Jl. Buah Batu", "041XXXX801", "The University Of New South Wales", "DAS", 7500000);
+        Dosen ERW = new Dosen("Erwin Budi Setiawan", "Jl. Buah Batu", "040XXXX601", "Institut Teknologi Bandung", "ERW", 7500000);
         
         //Class
         Kelas SE01 = new Kelas("SE-43-01", ERW.getNamaPegawai());
